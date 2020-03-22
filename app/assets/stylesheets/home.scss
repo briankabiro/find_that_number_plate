@@ -1,0 +1,24 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  .header {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .search-box {
+    display: flex;
+    justify-content: center;
+
+    #home_number_plate {
+      width: 50vw;
+      padding: 1rem;
+    }
+  }
+}

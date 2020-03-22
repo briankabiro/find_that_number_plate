@@ -1,0 +1,233 @@
+1 - Germany
+
+2 - Russian Federation
+
+3 - Ethiopia
+
+4 - China
+
+5 - Norway
+
+6 - Hungary
+
+7 - Egypt
+
+8 - Serbia
+
+9 - Italy
+
+10 - France
+
+11 - Slovakia
+
+12 - Denmark
+
+13 - Japan
+
+14 - Sudan
+
+15 - Austria
+
+16 - India
+
+17 - Australia
+
+18 - Canada
+
+19 - Holy See (The Vatican)
+
+20 - Finland
+
+21 - Switzerland
+
+22 - Britain
+
+23 - Liberia
+
+24 - Israel
+
+25 - Nigeria
+
+26 - Ghana
+
+27 - Netherlands
+
+28 - Malawi
+
+29 - USA
+
+30 - Belgium
+
+31 - Sweden
+
+32 - Pakistan
+
+33 - Poland
+
+34 - Korea
+
+35 - Bulgaria
+
+36 - Greece
+
+37 - Cuba
+
+38 - Kuwait
+
+39 - Spain
+
+40 UN - United Nations Development Programme (UNDP)
+
+41 UN - World Health Organization (WHO)
+
+42 UN - United Nations Educational, Scientific and Cultural Organization (UNESCO)
+
+43 UN - International Bank for Reconstruction and Development (The World Bank)
+
+44 UN - Food and Agriculture Organization of the United Nations (FAO)
+
+45 UN - World Food Programme (WFP)
+
+45 - Romania
+
+46 - Thailand
+
+47 - The African Union (A.U)
+
+48 - Colombia
+
+49 - India
+
+50 - Somalia
+
+51 - Brazil
+
+52 - Turkey
+
+53 - Lesotho
+
+54 - Zambia
+
+55 - Madagascar
+
+56 - Malaysia
+
+57 - D.R. Congo (DRC)
+
+58 - Swaziland
+
+59 - Sri Lanka
+
+60 - Iraq
+
+61 - Rwanda
+
+62 UN - United Nations High Commissioner for Refugees / UN Refugee Agency (UNHCR)
+
+63 UN - United Nations Children's Fund (UNICEF) Eastern & Southern African Regional Office
+
+64 - Iran
+
+65 - Cyprus
+
+66 - Argentina
+
+67 UN - United Nations Information Centre (UNIC)
+
+68 - Philippines
+
+69 - Burundi
+
+70 - Chile
+
+71 - Oman
+
+72 - League of Arab States / Arab League
+
+73 - European Union
+
+74 - Yemen
+
+75 - Kenya Mission to UNEP
+
+76 - Côte d'Ivoire (Consulate)
+
+77 - Bangladesh
+
+78 - Saudi Arabia
+
+79 UN - United Nations Office for Project Services / (UNOPS)
+
+80 - Libya
+
+81 - Ireland (Consulate)
+
+82 - United Nations Centre for Human Settlements / UN-Habitat (Kenya Mission)
+
+83 - Algeria
+
+84 - Palestine
+
+85 - Uganda
+
+86 - Mexico
+
+87 - Morocco
+
+88 - Costa Rica (Consulate)
+
+89 - Gabon (Consulate)
+
+90 UN - United Nations Children's Fund (UNICEF) Kenya Country Office
+
+91 - Indonesia
+
+92 - Portugal
+
+93 - Venezuela
+
+94 - Zimbabwe
+
+95 - International Civil Aviation Organization (I.C.A.O)
+
+96 - Asian Development Bank
+
+97 - Tanzania
+
+99 - Peru
+
+100 - International Finance Corporation (I.F.C)
+
+101 - United Nations Environment Programme (UNEP) Norwegian Mission
+
+102 - Mozambique
+
+103 - South Africa
+
+104 - Eritrea
+
+105 UN - United Nations Office in Nairobi (UNON)
+
+106 - Czech Republic
+
+107 - The Aga Khan
+
+108 UN - UNFPA
+
+110 UN - UNIDO (United Nations Industrial Development Organization)
+
+112 UN - International Fund for Agricultural Development (IFAD)
+
+113 UN - United Nations Office for Project Services (UNOPS)
+
+115 - Ukraine
+
+116 - Sahrawi
+
+117 - Djibouti
+
+118 - Sierra Leone
+
+121 - South Sudan
+
+123 - United Arab Emirates
