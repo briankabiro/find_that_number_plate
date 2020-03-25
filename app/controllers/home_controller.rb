@@ -8,10 +8,10 @@ class HomeController < ApplicationController
     country = search_code(code)
 
     if country
-      flash[:success] = "Yaay. #{query} is the diplomatic number for #{country}."
+      flash[:success] = "Yaay. #{query.upcase} is the diplomatic number for #{country}."
       redirect_to :root
     else
-      flash[:warning] = "Ooops. It seems that diplomatic number does not exist"
+      flash[:warning] = "Ooops. It seems that #{query.upcase} is not a valid diplomatic number"
       redirect_to :root
     end
   end
