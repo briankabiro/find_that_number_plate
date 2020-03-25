@@ -21,7 +21,7 @@ class HomeController < ApplicationController
     codes.each do |code|
       code = code.split(" ")
       if code.first == country_code
-        return code.third
+        return code.slice(2, code.size).join(" ")
       end
     end
 
