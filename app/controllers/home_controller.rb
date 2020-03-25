@@ -45,9 +45,7 @@ class HomeController < ApplicationController
   end
 
   def detect_country_code(number_plate)
-    if number_plate.upcase.include? "CD"
       ## accomodate people who don't use a space when entering the number plate
-      number_plate.split.first
-    end
+    number_plate.split.first
   end
 end
