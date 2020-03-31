@@ -1,24 +1,32 @@
 <div class="container">
-    <h3 class="header">Number Plate Search</h3>
+    <div class="top-section">
+        <div class="search-section">
+            <h3 class="header">Find that plate</h3>
 
-    <div>
-        <% flash.each do |type, msg| %>
-        <p class="alert alert-<%= type %> alert-dismissible">
-            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-            <%= msg %>
-        </p>
-        <% end %>
-    </div>
+            <div>
+                <% flash.each do |type, msg| %>
+                <p class="alert alert-<%= type %> alert-dismissible">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                    <%= msg %>
+                </p>
+                <% end %>
+            </div>
 
-    <div class="search-box">
-        <%= form_with(url: '/search', method: "post") do %>
-        <%= text_field_tag "home[number_plate]", nil, placeholder: "Enter the diplomatic number plate here" %>
-        <%= submit_tag("Search", class: "btn btn-primary search-button") %>
-        <% end %>
+            <div class="search-box">
+                <%= form_with(url: '/search', method: "post") do %>
+                <%= text_field_tag "home[number_plate]", nil, placeholder: "Enter the diplomatic number plate here" %>
+                <%= submit_tag("Search", class: "btn btn-primary search-button") %>
+                <% end %>
+            </div>
+        </div>
     </div>
 
     <div class="help-section">
-        <p> This is a search engine for diplomatic number plates in Kenya</p>
-        <p> e.g try searching for <b>100 CD</b> </p>
+        <h3 class="about-heading">About</h3>
+        <p>
+            This is a search engine for diplomatic number plates issued in Kenya. The plates are red in color with a white background.
+            Diplomatic number plates were issued in Kenya based on the order that countries that recognised the country as an independent state
+        </p>
+        <p>For a start, you can e.g try searching for <b>1</b>. That's it just the number one to see which country was the first to do so.</p>
     </div>
 </div>
