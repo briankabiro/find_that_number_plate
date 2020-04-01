@@ -1,7 +1,18 @@
 # README
+Find that number plate is a web application for retrieving info about number plates in Kenya.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup
+- Clone the repo
+- cd into the directory
+- Run `rails s` to start the server
+- Search away
 
-- [ ] Add background photo
-- [ ] Make page responsive and test UX using mobile
+## Roadmap
+- [x] Diplomatic number plates search
+- [ ] County government number plates search
+- [ ] Search for number plates based on color to identify the organization
+
+## Tech
+- Ruby on Rails
+- HTML/CSS
+- Bootstrap
