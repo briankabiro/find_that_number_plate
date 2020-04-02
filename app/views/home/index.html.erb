@@ -1,21 +1,21 @@
-<div class="container">
+<div class="page-container">
     <div class="top-section">
         <div class="search-section">
-            <h3 class="header">Find that plate</h3>
+            <h1 class="header">Find that plate</h1>
 
-            <div>
+            <div class="search-box">
+                <%= form_with(url: '/search', method: "post") do %>
+                <%= text_field_tag "home[number_plate]", nil, placeholder: "Enter the diplomatic number plate here", autofocus: true %>
+                <%= submit_tag("Search", class: "btn search-button") %>
+                <% end %>
+            </div>
+
+            <div class="flash-messages">
                 <% flash.each do |type, msg| %>
                 <p class="alert alert-<%= type %> alert-dismissible">
                     <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
                     <%= msg %>
                 </p>
-                <% end %>
-            </div>
-
-            <div class="search-box">
-                <%= form_with(url: '/search', method: "post") do %>
-                <%= text_field_tag "home[number_plate]", nil, placeholder: "Enter the diplomatic number plate here", autofocus: true %>
-                <%= submit_tag("Search", class: "btn btn-primary search-button") %>
                 <% end %>
             </div>
         </div>

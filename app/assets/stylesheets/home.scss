@@ -2,28 +2,34 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.container {
+.page-container {
   display: flex;
   flex-direction: column;
   height: 100vh;
 
-  .content {
-  }
-
   .top-section {
-    background-image: url('road-bg.jpg');
-    opacity: 0.9;
-    background-size: cover;
+    background-color: #E5E7EF;
     height: 45vh;
-    margin-top: 2rem;
+    opacity: 0.9;
   }
 
   .search-section {
     margin-top: 10vh;
   }
 
+  .flash-messages {
+    display: flex;
+    justify-content: center;
+
+    .alert {
+      margin-top: 1rem;
+      text-align: center;
+      width: 85%;
+    }
+  }
+
   .header {
-    color: white;
+    color: black;
     margin-bottom: 2rem;
     text-align: center;
   }
@@ -37,6 +43,13 @@
       border-radius: 0.5rem;
       padding: 0.6rem;
       width: 50vw;
+      height: 6vh;
+    }
+
+    .search-button {
+      background-color: #3A23B5;
+      color: white;
+      width: 12vh;
     }
   }
 
