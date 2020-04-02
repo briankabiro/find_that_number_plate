@@ -2,10 +2,9 @@
 Find that number plate is a web application for retrieving info about number plates in Kenya.
 
 ## Setup
-- Clone the repo
-- cd into the directory
+- Clone the repo and cd into the new directory
 - Run `rails s` to start the server
-- Search away
+- Visit `localhost:3000` to view the app
 
 ## Roadmap
 - [x] Diplomatic number plates search
