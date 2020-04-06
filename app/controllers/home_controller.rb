@@ -39,7 +39,7 @@ class HomeController < ApplicationController
   end
 
   def fetch_codes
-    Rails.cache.fetch("diplomatic_codes", expires_in: 1.hour) do
+    Rails.cache.fetch("diplomatic_codes", expires_in: 10.days) do
       File.read("lib/configs/diplomatic_codes.txt").split("\n").select { |x| x.present? }
     end
   end
