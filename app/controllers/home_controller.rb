@@ -45,7 +45,6 @@ class HomeController < ApplicationController
   end
 
   def detect_country_code(number_plate)
-      ## accomodate people who don't use a space when entering the number plate
-    number_plate.split.first
+    number_plate.scan(/\d+/).first
   end
 end
