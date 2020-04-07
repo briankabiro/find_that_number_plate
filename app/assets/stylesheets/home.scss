@@ -12,6 +12,10 @@
     background-size: cover;
     height: 45vh;
     opacity: 0.9;
+
+    @media (min-width: 992px)  {
+      height: 60vh;
+    }
   }
 
   .search-section {
@@ -63,13 +67,17 @@
     }
 
     .help-section-heading {
-      color: #EF6C7F;
+      color: #EB5062;
       padding-bottom: 1rem;
     }
 
     .help-section-content {
       border-bottom: 1px solid rgb(221, 221, 221);
       padding-bottom: 2rem;
+
+      @media (min-width: 992px) {
+        padding-bottom: 3rem;
+      }
     }
 
     p {
