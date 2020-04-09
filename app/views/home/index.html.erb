@@ -5,7 +5,7 @@
 
             <div class="search-box">
                 <%= form_with(url: '/search', method: "post") do %>
-                <%= text_field_tag "home[number_plate]", nil, placeholder: "Enter the diplomatic number plate here", autofocus: true %>
+                <%= text_field_tag "home[number_plate]", nil, placeholder: "Enter the diplomatic number plate here e.g 20", autofocus: true %>
                 <%= submit_tag("Search", class: "btn search-button") %>
                 <% end %>
             </div>
@@ -25,14 +25,19 @@
         <div class="help-section-content">
             <h4 class="help-section-heading">About</h4>
             <p>
-                Find That Plate is a search engine for diplomatic number plates issued in Kenya. Diplomatic plates are written with white on a red background.
+                Find That Plate is a search engine for number plates issued in Kenya. Currently, it supports diplomatic number plates.
+                You can search using:
+                <ul>
+                    <li>a number such as 22</li>
+                    <li>the full plate e.g 22 CD</li>
+                </ul>
             </p>
         </div>
 
         <div class="help-section-content">
-            <h4 class="help-section-heading">How it works</h4>
-            <p>Diplomatic number plates are issued in Kenya based on the order which a country recognised Kenya as an independent state</p>
-            <p>For example, the first country was Germany which was issued 1(1 CD)</p>
+            <h4 class="help-section-heading">Origin story</h4>
+            <p>Diplomatic plates are written with white on a red background. In Kenya, these number plates are issued based on the order that countries recognised Kenya as an independent state.</p>
+            <p>The first country was Germany and their number plates start with 1 CD</p>
         </div>
     </div>
 </div>
