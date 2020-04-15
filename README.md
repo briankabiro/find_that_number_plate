@@ -15,3 +15,11 @@ Find that number plate is a web application for retrieving info about number pla
 - Ruby on Rails
 - HTML/CSS
 - Bootstrap
+
+
+## Screenshots
+![Home Page](images/home_page.png?raw=true "Home Page")
+
+![Number Plate Found](images/success_message.png?raw=true "Number Plate Found")
+
+![Not found](images/failure_message.png?raw=true "Not found")
