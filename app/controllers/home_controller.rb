@@ -17,10 +17,11 @@ class HomeController < ApplicationController
   end
 
   def search_code(country_code)
-    # use a hash table. array is not efficient
+    ## TODO: use a hash? array is not efficient for searching
     codes.each do |code|
       code = code.split(" ")
       if code.first == country_code
+        ## TODO: investigate whether ranges can be used here e.g code[2..-1]
         return code.slice(2, code.size).join(" ")
       end
     end
@@ -35,6 +36,7 @@ class HomeController < ApplicationController
   end
 
   def codes
+    ## is this performant? check whether this improves time
     @codes ||= fetch_codes
   end
 
